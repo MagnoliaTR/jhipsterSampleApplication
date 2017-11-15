@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "applicationType": "uaa",
+    "gitHubOrganization": "MagnoliaTR",
+    "baseName": "jhipsterSampleApplication",
+    "packageName": "com.utku.jhipster.app",
+    "serverPort": 9999,
+    "serviceDiscoveryType": false,
+    "authenticationType": "oauth2",
+    "uaaBaseName": "../uaa",
+    "hibernateCache": "hazelcast",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "elasticsearch",
+    "enableSwaggerCodegen": "true",
+    "messageBroker": "kafka",
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "cucumber"
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "tr"
+    ],
+    "clientFramework": "angularX",
+    "jhipsterVersion": "4.10.2",
+    "packageFolder": "com/utku/jhipster/app",
+    "jhiPrefix": "jhi",
+    "skipClient": true
+  }
+}
